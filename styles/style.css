@@ -249,3 +249,63 @@ header .floating_head_img_2 {
     line-height: 31px;
     color: #757575;
 }
+
+
+
+
+/* Resume Section CSS */
+.resume_section {
+    margin: 50px 0px;
+}
+.resume_section .fixed_container{}
+.resume_section .fixed_container > h1 {
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 35px;
+}
+.resume_section .resume_part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.resume_part .education_part {
+    flex-basis: 45%;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 10px;
+}
+.resume_part .education_part .education_item {
+    padding: 10px 0px 20px;
+    border-bottom: 1px solid #7575757a;
+}
+.resume_part .education_part > :nth-child(4){
+    border-bottom: none !important;
+}
+.resume_part .education_part > h2{
+    color: #474747;
+}
+.resume_part .education_part .education_item h2 {
+    color: #474747;
+}
+.resume_part .education_part .education_item h3 {
+    color: #757575;
+    font-weight: 400;
+    margin: 2px 0px 18px;
+}
+.resume_part .education_part .education_item p {
+    color: #757575;
+}
+/* .resume_part .experience_part .education_item{}
+.resume_part .experience_part .education_item h2{}
+.resume_part .experience_part .education_item h3{}
+.resume_part .experience_part .education_item p{} */
+
+.resume_btn{
+    text-align: center;
+    margin: 20px 0px;
+}
+.resume_btn button {
+    padding: 17px 34px;
+    display: inline-block;
+    font-size: 20px;
+}

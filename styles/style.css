@@ -42,7 +42,6 @@ li {
 }
 
 /* Header Section CSS */
-header{}
 header nav {
     width: 80%;
     margin: auto;
@@ -52,7 +51,6 @@ header nav {
     align-items: center;
     padding: 10px 0px;
 }
-header nav .nav_logo{}
 header nav .nav_logo a {
     font-size: 36px;
     font-weight: bolder;
@@ -68,7 +66,6 @@ header nav .navigation ul {
     display: flex;
     flex-wrap: wrap;
 }
-header nav .navigation ul li {}
 header nav .navigation ul li a {
     /* background: aliceblue; */
     display: inline-block;
@@ -114,8 +111,6 @@ header nav .navigation ul li a button {
     font-size: 60px;
     margin: 13px 0px;
 }
-.head_banner .head_text > :nth-child(1){}
-.head_banner .head_text > :nth-child(2){}
 .head_banner .head_img {
     flex-basis: 50%;
     display: flex;
@@ -130,7 +125,6 @@ header nav .navigation ul li a button {
 .head_button {
     margin-top: 20px;
 }
-.head_button a{}
 .head_button a button {
     padding: 14px 30px;
     margin-right: 10px;
@@ -169,8 +163,7 @@ header nav .navigation ul li a button {
     flex-basis: 23%;
     font-size: 15px;
 }
-.about_content .about_details .about_item p{}
-.about_content .about_details .about_item > :nth-child(1){}
+
 .about_content .about_details .about_item > :nth-child(2) {
     font-weight: 600;
     margin-top: 6px;
@@ -203,8 +196,6 @@ header .floating_head_img_2 {
 
 
 /* Service Section CSS  */
-.service_section{}
-.service_section .fixed_container{}
 .service-data {
     padding: 50px 0;
 }
@@ -234,7 +225,6 @@ header .floating_head_img_2 {
     padding: 20px;
     box-shadow: 0 6px 5px 0 rgba(0, 0, 0, 0.09);
 }
-.services_card .service_item .service_img{}
 .services_card .service_item .service_img img {
     max-width: 100%;
 }
@@ -257,7 +247,6 @@ header .floating_head_img_2 {
 .resume_section {
     margin: 50px 0px;
 }
-.resume_section .fixed_container{}
 .resume_section .fixed_container > h1 {
     text-align: center;
     margin: 50px 0px;
@@ -295,10 +284,6 @@ header .floating_head_img_2 {
 .resume_part .education_part .education_item p {
     color: #757575;
 }
-/* .resume_part .experience_part .education_item{}
-.resume_part .experience_part .education_item h2{}
-.resume_part .experience_part .education_item h3{}
-.resume_part .experience_part .education_item p{} */
 
 .resume_btn{
     text-align: center;

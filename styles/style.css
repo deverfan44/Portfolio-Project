@@ -1,0 +1,248 @@
+/* Add Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* font-family: "Open Sans", serif; */
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+/* Default CSS  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.sm_btn{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #FD6E0A;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}
+.primary_bg{
+    background-color: #FFF8F3;
+}
+.fixed_container{
+    max-width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* Header Section CSS */
+header{}
+header nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+header nav .nav_logo{}
+header nav .nav_logo a {
+    font-size: 36px;
+    font-weight: bolder;
+    color: black;
+}
+header nav .nav_logo a span {
+    color: #FD6E0A;
+}
+header nav .navigation {
+    margin-right: 59px;
+}
+header nav .navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+header nav .navigation ul li {}
+header nav .navigation ul li a {
+    /* background: aliceblue; */
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+header nav .navigation ul > :nth-child(3) a {
+    padding: 0;
+}
+header nav .navigation ul li a button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #FD6E0A;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}
+
+.head_banner_section {
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+}
+.head_banner_section .head_banner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.head_banner .head_text {
+    flex-basis: 50%;
+}
+.head_banner .head_text p {
+    font-size: 15px;
+    opacity: 0.7;
+}
+.head_banner .head_text > :nth-child(1) {
+    font-size: 41px;
+}
+.head_banner .head_text h1 {
+    font-size: 60px;
+    margin: 13px 0px;
+}
+.head_banner .head_text > :nth-child(1){}
+.head_banner .head_text > :nth-child(2){}
+.head_banner .head_img {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.head_banner .head_img img {
+    width: 70%;
+    z-index: 500;
+}
+
+
+.head_button {
+    margin-top: 20px;
+}
+.head_button a{}
+.head_button a button {
+    padding: 14px 30px;
+    margin-right: 10px;
+}
+
+
+
+
+/* About Sectin CSS */
+.about_section {
+    margin: 50px 0px;
+}
+.about_content {
+    padding: 50px 0px;
+    width: 80%;
+    margin: auto;
+}
+.about_content .about_text {
+    text-align: center;
+}
+.about_content .about_text h1 {
+    font-size: 33px;
+}
+.about_content .about_text p {
+    line-height: 1.8rem;
+    margin: 15px 0px;
+}
+.about_content .about_details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 26px;
+}
+.about_content .about_details .about_item {
+    flex-basis: 23%;
+    font-size: 15px;
+}
+.about_content .about_details .about_item p{}
+.about_content .about_details .about_item > :nth-child(1){}
+.about_content .about_details .about_item > :nth-child(2) {
+    font-weight: 600;
+    margin-top: 6px;
+}
+.flex-g{
+    flex-grow: 2;
+}
+
+
+
+/* Floating image */
+header{
+    position: relative;
+}
+header .floating_head_img_1 {
+    position: absolute;
+    left: 31px;
+    top: 19px;
+    height: 490px;
+}
+header .floating_head_img_2 {
+    position: absolute;
+    right: 106px;
+    bottom: 31px;
+    width: 500px;
+    z-index: 0;
+}
+
+
+
+
+/* Service Section CSS  */
+.service_section{}
+.service_section .fixed_container{}
+.service-data{}
+.service-data .service_title {
+    text-align: center;
+    padding: 30px 107px;
+}
+.service-data .service_title h1 {
+    font-size: 35px;
+    color: #181818;
+}
+.service-data .service_title p {
+    line-height: 29px;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #757575;
+}
+.service-data .services_card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 24px;
+    row-gap: 10px;
+}
+.service-data .services_card .service_item {
+    flex-basis: 22%;
+    padding: 20px;
+}
+.services_card .service_item .service_img{}
+.services_card .service_item .service_img img {
+    max-width: 100%;
+}
+.services_card .service_item .service_text {
+    padding: 30px 0px;
+}
+.services_card .service_item .service_text h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.services_card .service_item .service_text p {
+    line-height: 31px;
+    color: #757575;
+}

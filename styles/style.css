@@ -205,7 +205,9 @@ header .floating_head_img_2 {
 /* Service Section CSS  */
 .service_section{}
 .service_section .fixed_container{}
-.service-data{}
+.service-data {
+    padding: 50px 0;
+}
 .service-data .service_title {
     text-align: center;
     padding: 30px 107px;
@@ -224,12 +226,13 @@ header .floating_head_img_2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 24px;
+    margin-top: 50px;
     row-gap: 10px;
 }
 .service-data .services_card .service_item {
     flex-basis: 22%;
     padding: 20px;
+    box-shadow: 0 6px 5px 0 rgba(0, 0, 0, 0.09);
 }
 .services_card .service_item .service_img{}
 .services_card .service_item .service_img img {

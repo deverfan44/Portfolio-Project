@@ -294,3 +294,81 @@ header .floating_head_img_2 {
     display: inline-block;
     font-size: 20px;
 }
+
+
+
+
+/* Footer Section CSS  */
+footer {
+    background: #FFF8F3;
+}
+.footer_section {
+    padding: 80px 0px;
+}
+.footer_content{}.footer_content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left h1 {
+    font-size: 40px;
+}
+.footer-left p {
+    font-size: 15px;
+    margin: 20px 0px;
+}
+.footer-left .footer_icon{}
+.footer-left .footer_icon a {
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-left .footer_icon a span {
+    display: inline-block;
+}
+.footer-left .footer_icon a span i {
+    font-size: 25px;
+    color: #FD6E0A;
+}
+.footer_content .footer_sm {
+    flex-basis: 48%;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-left h1 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+.footer-right .footer_form {
+    width: 66%;
+    margin-top: 20px;
+}
+.footer-right .footer_form form {
+    display: flex;
+    flex-direction: column;
+}
+.footer-right .footer_form input {
+    padding: 8px 14px;
+    margin-bottom: 13px;
+    border-radius: 2px;
+    border: none;
+    height: 55px;
+    /* outline: 1px solid gray; */
+    outline: none;
+    font-size: 19px;
+}
+.footer-right .footer_form textarea {
+    font-size: 19px;
+    padding: 10px 14px;
+    border: none;
+    /* outline: 1px solid gray; */
+    outline: none;
+}
+.footer-right .footer_form button {
+    margin-top: 14px;
+    display: inline-block;
+    padding: 16px;
+}

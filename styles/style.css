@@ -305,7 +305,7 @@ footer {
 .footer_section {
     padding: 80px 0px;
 }
-.footer_content{}.footer_content {
+.footer_content {
     display: flex;
     justify-content: space-between;
 }
@@ -316,7 +316,6 @@ footer {
     font-size: 15px;
     margin: 20px 0px;
 }
-.footer-left .footer_icon{}
 .footer-left .footer_icon a {
     display: inline-block;
     margin-right: 20px;

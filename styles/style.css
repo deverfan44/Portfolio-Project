@@ -188,6 +188,13 @@ header .floating_head_img_2 {
     header nav .navigation {
         margin-right: 0px;
     }
+    .head_button a{
+        display: block;
+    }
+    .head_button a button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
 
 
@@ -388,10 +395,14 @@ header .floating_head_img_2 {
 @media screen and (max-width:768px) {
     .resume_section .resume_part {
         justify-content: center;
+        row-gap: 20px;
     }
     .resume_part .education_part {
         flex-basis: 90%;
         border-bottom: 2px solid #b52727;
+    }
+    .resume_section .fixed_container > h1 {
+        font-size: 25px;
     }
 }
 

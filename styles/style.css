@@ -65,6 +65,7 @@ header nav .navigation {
 header nav .navigation ul {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 header nav .navigation ul li a {
     /* background: aliceblue; */
@@ -97,6 +98,7 @@ header nav .navigation ul li a button {
     flex-wrap: wrap;
     align-items: center;
 }
+
 .head_banner .head_text {
     flex-basis: 50%;
 }
@@ -128,6 +130,64 @@ header nav .navigation ul li a button {
 .head_button a button {
     padding: 14px 30px;
     margin-right: 10px;
+}
+/* Floating image */
+header{
+    position: relative;
+}
+header .floating_head_img_1 {
+    position: absolute;
+    left: 31px;
+    top: 19px;
+    height: 490px;
+}
+header .floating_head_img_2 {
+    position: absolute;
+    right: 106px;
+    bottom: 31px;
+    width: 500px;
+    z-index: 0;
+}
+
+@media screen and (max-width:992px) {
+    .head_banner_section .head_banner {
+        flex-direction: column;
+        row-gap: 22px;
+    }
+    .head_banner .head_text {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .head_banner .head_img {
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    header .floating_head_img_2 {
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+    }
+    .head_banner .head_text h1 {
+        font-size: 40px;
+    }
+    .head_button a button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .head_banner .head_text h1 {
+        font-size: 30px;
+    }
+    header nav {
+        width: 100%;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    header nav .navigation {
+        margin-right: 0px;
+    }
 }
 
 
@@ -171,25 +231,30 @@ header nav .navigation ul li a button {
 .flex-g{
     flex-grow: 2;
 }
-
-
-
-/* Floating image */
-header{
-    position: relative;
+@media screen and (max-width:992px) {
+    .about_content .about_details {
+        row-gap: 15px;
+    }
+    .about_content .about_details .about_item {
+        flex-basis: 50%;
+        font-size: 16px;
+        text-align: center;
+    }
 }
-header .floating_head_img_1 {
-    position: absolute;
-    left: 31px;
-    top: 19px;
-    height: 490px;
-}
-header .floating_head_img_2 {
-    position: absolute;
-    right: 106px;
-    bottom: 31px;
-    width: 500px;
-    z-index: 0;
+@media screen and (max-width:576px) {
+    .about_content .about_details {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 24px;
+    }
+    .about_content {
+        padding: 20px 0px;
+        width: 100%;
+        margin: auto;
+    }
+    .about_section {
+        margin: 20px 0px;
+    }
 }
 
 
@@ -240,7 +305,32 @@ header .floating_head_img_2 {
     color: #757575;
 }
 
-
+@media screen and (max-width:992px) {
+    .service-data .services_card {
+        row-gap: 50px;
+    }
+    .service-data .services_card .service_item {
+        flex-basis: 45%;
+    }
+    
+}
+@media screen and (max-width:576px) {
+    .service-data .services_card {
+        flex-direction: column;
+    }
+    .service-data .service_title {
+        padding: 30px 0px;
+    }
+    .service-data .service_title p {
+        font-size: 16px;
+    }
+    .footer-right .footer_form {
+        width: 100%;
+    }
+    .service-data {
+        padding: 20px 0;
+    }
+}
 
 
 /* Resume Section CSS */
@@ -295,6 +385,15 @@ header .floating_head_img_2 {
     font-size: 20px;
 }
 
+@media screen and (max-width:768px) {
+    .resume_section .resume_part {
+        justify-content: center;
+    }
+    .resume_part .education_part {
+        flex-basis: 90%;
+        border-bottom: 2px solid #b52727;
+    }
+}
 
 
 
@@ -370,4 +469,22 @@ footer {
     margin-top: 14px;
     display: inline-block;
     padding: 16px;
+}
+
+@media screen and (max-width:768px) {
+    .footer_content {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .footer_content .footer_sm {
+        text-align: center;
+    }
+    .footer-right .footer_form {
+        width: 80%;
+    }
+}
+@media screen and (max-width:576px) {
+    .footer-right .footer_form {
+        width: 100%;
+    }
 }

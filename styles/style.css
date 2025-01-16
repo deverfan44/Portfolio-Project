@@ -195,7 +195,10 @@ header .floating_head_img_2 {
         width: 100%;
         margin-bottom: 10px;
     }
-}
+    header .floating_head_img_1 {
+        height: 430px;
+        left: 18px;
+    }
 
 
 

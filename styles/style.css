@@ -117,6 +117,7 @@ header nav .navigation ul li a button {
     flex-basis: 50%;
     display: flex;
     justify-content: flex-end;
+    align-self: end;
 }
 .head_banner .head_img img {
     width: 70%;
